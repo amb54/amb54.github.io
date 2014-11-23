@@ -237,8 +237,8 @@ conMat7&lt;-confusionMatrix(predRandomForestCV7,testing[,c(impVar7,54)]$classe)<
 <pre><code>## [1] 0.01503951</code></pre>
 </div>
 </div>
-<div id="prediction-of-the-20-cases-in-the-testing-data-set-pml-testing" class="section level3">
-<h3>Prediction of the 20 cases in the testing data set pml-testing</h3>
+<div id="prediction-of-the-20-cases-in-the-data-set-pml-testing" class="section level3">
+<h3>Prediction of the 20 cases in the data set pml-testing</h3>
 <p>To do this, the model build with only 7 predictors (OOB error rate &lt;2%, and accuracy for the testing set 98.5% ) was used</p>
 <pre class="r"><code>prediction&lt;-predict(modelFitRF7,newdata=pmlTest2)
 prediction</code></pre>

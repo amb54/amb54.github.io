@@ -237,7 +237,7 @@ conMat7<-confusionMatrix(predRandomForestCV7,testing[,c(impVar7,54)]$classe)
 ```
 
 
-### Prediction of the 20 cases in the testing data set pml-testing
+### Prediction of the 20 cases in the data set pml-testing
 
 To do this, the model build with only 7 predictors (OOB error rate <2%, and accuracy for the testing set 98.5% ) was used
 
