@@ -1,7 +1,7 @@
 About our World  
 ========================================================
 author: amb54
-date: `r format(Sys.Date(), format="%B %d, %Y")`
+date: January 25, 2015
 transition: rotate
   
 <small>
